@@ -4,24 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos.</title>>
+    <title>Pedidos.</title>
     <link rel="stylesheet" href="./pedidos.css">
 </head>
 
 <body>
-    Ola, a continuação você podera fazer seu pedido.
-    <form action="#" method="post">
-        <label for="nome">Nome </label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
-        <label for="produto">Escolha o seu produto:</label><br>
-        <select id="produto" name="produto" required>
-            <option value="">selecione </option>
-            <option value="pizza"> 2 pizzaz familiar</option>
-            <option value="combo"> pizza familiar + pizza doce</option>
-            <option value="pizza">1 pizza grande</option>
-            <option value="combo">2 pizza grnade + 1 pizza individual</option>
-        </select>
+    <h1>Olá, a continuação você podera fazer seu pedido. 🥳 </h1>
+    <div class="pedidos">
+        <form action="#" method="post">
+            <label for="nome">Nome </label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="produto">Escolha o seu produto:</label><br>
+            <select id="produto" name="produto" required>
+                <option value="">selecione </option>
+                <option value="pizza"> 2 pizzas familiar</option>
+                <option value="combo"> pizza familiar + pizza doce</option>
+                <option value="pizza">1 pizza grande</option>
+                <option value="combo">2 pizza grande + 1 pizza individual</option>
+            </select> <select id="bebida" name="bebida" required>
+                <option value="">selecione </option>
+                <option value="Coca"> Coca cola 1L</option>
+                <option value="Fanta">Fanta uva 500ml</option>
+                <option value="Cini">Cini abacaxi 500ml</option>
+                <option value="Guarana">Guarana 1L</option> <br>
+            </select><br><br>
+            <label for="observacoes">Observações</label> <br>
+            <textarea id="observacoes" name="observacoes" rows="4" cols="30"></textarea> <br>
+            <button type="submit"> Eviar pedido. </button>
+    </div>
+    <p><a href="home.html">Voltar para a Home</a></p>
+      
     </form>
+      
 </body>
 
 </html>
